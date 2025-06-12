@@ -42,7 +42,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Add a new movie to the collection",
 			"id": "45848228-2225ee83-d533-4465-8abf-424d9313133f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
