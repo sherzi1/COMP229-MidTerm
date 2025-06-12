@@ -144,6 +144,18 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "45848228-41994959-5833-42f8-9554-ddbf312daccd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
