@@ -140,7 +140,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Update a movie by index",
 			"id": "45848228-41994959-5833-42f8-9554-ddbf312daccd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
