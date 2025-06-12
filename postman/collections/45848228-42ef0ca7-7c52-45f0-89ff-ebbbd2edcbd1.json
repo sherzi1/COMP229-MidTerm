@@ -30,7 +30,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Retrieve a movie by its index (ID).",
 			"id": "45848228-614c7abb-a77e-43bf-98b9-6463feef627b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
