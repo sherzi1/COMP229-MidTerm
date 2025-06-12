@@ -165,7 +165,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Remove a movie from the collection by its index",
 			"id": "45848228-90a4aeee-1847-48bd-9c2d-8aa8aeff870e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
