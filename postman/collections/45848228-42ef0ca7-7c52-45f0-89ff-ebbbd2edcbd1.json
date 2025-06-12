@@ -147,6 +147,31 @@
 			},
 			"request": {
 				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "45848228-90a4aeee-1847-48bd-9c2d-8aa8aeff870e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
 				"header": []
 			},
 			"response": []
