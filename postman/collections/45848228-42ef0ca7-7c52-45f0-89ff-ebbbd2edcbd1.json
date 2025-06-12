@@ -13,7 +13,19 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
 			},
 			"response": []
 		},
@@ -56,7 +68,20 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						"4"
+					]
+				}
 			},
 			"response": []
 		},
@@ -67,7 +92,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "http://localhost:3000/api/movies/",
