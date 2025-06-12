@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Retrieve the full list of movies",
 			"id": "45848228-8f73c14b-97b2-4e0a-ad2d-265730518e89",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
