@@ -108,37 +108,31 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/movies/?title=\"The Greatest Game Ever Played\"&genre=\"Comedy\"&year=2005&director=Bill Paxton",
+					"raw": "http://localhost:3000/api?\"title\"=\"The Greatest Game Ever Played\"&\"genre\"=\"Comedy\"&\"year\"=2005&\"director\"=Bill Paxton",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"api",
-						"movies",
-						""
+						"api"
 					],
 					"query": [
 						{
-							"key": "title",
-							"value": "\"The Greatest Game Ever Played\"",
-							"type": "text"
+							"key": "\"title\"",
+							"value": "\"The Greatest Game Ever Played\""
 						},
 						{
-							"key": "genre",
-							"value": "\"Comedy\"",
-							"type": "text"
+							"key": "\"genre\"",
+							"value": "\"Comedy\""
 						},
 						{
-							"key": "year",
-							"value": "2005",
-							"type": "text"
+							"key": "\"year\"",
+							"value": "2005"
 						},
 						{
-							"key": "director",
-							"value": "Bill Paxton",
-							"type": "text"
+							"key": "\"director\"",
+							"value": "Bill Paxton"
 						}
 					]
 				}
