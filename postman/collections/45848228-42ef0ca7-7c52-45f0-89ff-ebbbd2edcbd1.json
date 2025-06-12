@@ -142,7 +142,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"title\": \"Al-Queada Movei\",\n    \"genre\": \"Animation\",\n    \"year\": 2008,\n    \"director\": \"Andrew Stanton\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -150,7 +150,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/movies/4",
+					"raw": "http://localhost:3000/api/movies/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -159,7 +159,7 @@
 					"path": [
 						"api",
 						"movies",
-						"4"
+						"3"
 					]
 				}
 			},
