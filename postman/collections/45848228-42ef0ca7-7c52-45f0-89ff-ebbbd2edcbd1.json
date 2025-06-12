@@ -70,7 +70,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/movies/4",
+					"raw": "http://localhost:3000/api/movies/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -79,7 +79,7 @@
 					"path": [
 						"api",
 						"movies",
-						"4"
+						"3"
 					]
 				}
 			},
