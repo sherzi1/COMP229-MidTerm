@@ -25,7 +25,26 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies/filter?genre=Animation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "genre",
+							"value": "Animation"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -48,8 +67,21 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
-				"header": []
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						""
+					]
+				}
 			},
 			"response": []
 		}
