@@ -87,6 +87,19 @@
 		},
 		{
 			"name": "Add a new movie to the collection",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "aa2afc1d-b8bd-463d-9591-84114768b2ba",
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "45848228-2225ee83-d533-4465-8abf-424d9313133f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -95,7 +108,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/movies/",
+					"raw": "http://localhost:3000/api/movies/?title=\"The Greatest Game Ever Played\"&genre=\"Comedy\"&year=2005&director=Bill Paxton",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -105,6 +118,28 @@
 						"api",
 						"movies",
 						""
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "\"The Greatest Game Ever Played\"",
+							"type": "text"
+						},
+						{
+							"key": "genre",
+							"value": "\"Comedy\"",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "2005",
+							"type": "text"
+						},
+						{
+							"key": "director",
+							"value": "Bill Paxton",
+							"type": "text"
+						}
 					]
 				}
 			},
